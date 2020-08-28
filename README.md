@@ -1,4 +1,8 @@
-# Driver for the LIS3DH 3-axes digital output accelerometer 
+# LIS3DH Driver for ESP-IDF
+
+ESP-IDF 4+ compatible driver for the lis3dh based on https://github.com/gschorcht/lis3dh-esp-idf
+
+## Driver for the LIS3DH 3-axes digital output accelerometer 
 
 The driver is for the usage with the ESP8266 and [esp-open-rtos](https://github.com/SuperHouse/esp-open-rtos). If you can't find it in folder [extras/lis3dh](https://github.com/SuperHouse/esp-open-rtos/tree/master/extras) of original repository, it is not yet merged. Please take a look to branch [lis3dh](https://github.com/gschorcht/esp-open-rtos/tree/lis3dh) of my fork in that case.
 
