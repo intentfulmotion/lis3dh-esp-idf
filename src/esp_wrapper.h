@@ -1,10 +1,7 @@
 /*
  * Wrapper module for source code compatibility with esp-open-rtos.
  */
-
-#ifndef __ESP8266_WRAPPER_H__
-#define __ESP8266_WRAPPER_H__
-
+#pragma once
 #ifdef ESP_PLATFORM  // ESP32 (ESP-IDF)
 
 #ifdef __cplusplus
@@ -15,6 +12,7 @@ extern "C" {
 #include "freertos/task.h"
 #include "freertos/queue.h"
 
+#include "hal/gpio_types.h"
 #include "driver/uart.h"
 #include "driver/spi_common.h"
 
@@ -110,5 +108,3 @@ size_t spi_transfer_pf(uint8_t bus, uint8_t cs,
 #endif
 
 #endif  // ESP_PLATFORM
-
-#endif  // __ESP8266_WRAPPER_H__

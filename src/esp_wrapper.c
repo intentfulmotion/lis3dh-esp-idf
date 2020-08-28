@@ -13,7 +13,7 @@
 #include "driver/i2c.h"
 #include "driver/gpio.h"
 
-#include "esp8266_wrapper.h"
+#include "esp_wrapper.h"
 
 // esp-open-rtos SDK function wrapper
 
